@@ -1,0 +1,27 @@
+# Bỏ qua các tệp nhật ký
+*.log
+
+# Bỏ qua các tệp tạm thời và tệp sao lưu
+*.tmp
+*.bak
+
+# Bỏ qua các thư mục build và các tệp tạo ra bởi trình biên dịch
+/build/
+/dist/
+
+# Bỏ qua các tệp cấu hình và chứa thông tin bảo mật
+/config.ini
+/credentials.json
+
+# Bỏ qua các tệp và thư mục được tạo ra bởi IDE
+.idea/
+.vscode/
+
+# Bỏ qua các tệp và thư mục không cần thiết khác
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.so
+*.pyc
